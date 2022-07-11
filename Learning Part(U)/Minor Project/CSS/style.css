@@ -1,0 +1,27 @@
+/* Tag Selectors */
+body{
+    background-color: powderblue;
+}
+h1{
+    color: crimson;
+    font-size: 100px;
+}
+/* img{
+    background-color: red;
+} */
+/* Class Selectors */
+img:hover{
+    background-color: mediumaquamarine ;
+}
+.newmoon{
+    background-color: azure;
+}
+.fullmoon{
+    background-color: aliceblue;
+}
+
+/* ID Selectors */
+
+#heading{
+    color: fuchsia;
+}
