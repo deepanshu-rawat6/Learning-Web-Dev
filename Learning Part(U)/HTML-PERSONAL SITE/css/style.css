@@ -1,5 +1,6 @@
 body {
     background-color: #F6F6F6;
+    font-family: Cambria, Georgia, serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; 
 }
 
 hr {
@@ -13,8 +14,15 @@ hr {
 
 h1 {
     color: #816797;
+    font-family: Cambria, Georgia, serif; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
 
 h3 {
     color: #816797;
+    font-family: Cambria, Georgia, serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+}
+
+h6 {
+    color: #816797;
+    font-family: Cambria, Georgia, serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
