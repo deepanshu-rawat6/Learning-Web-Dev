@@ -1,15 +1,19 @@
 body{
-    margin-left: 0px;
+    margin: 0;
+    /* margin-left: 0px;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 0px; */
     text-align: center;
 }
 h1{
-    width: 10%;
-    margin: 0 auto;
+    margin-top: 0;
+    /* width: 10%;
+    margin: 0 auto; we can use margin: 0 auto 0 auto; but simply defining 0 and auto is understood as 0 for top and bottom and auto for left and right */
 }
 .top-container{
     background-color: #CADEFC;
+    position: relative;
+    padding-top: 100px;
     /* width: 200px;
     height: 200px;
     border: solid 10px;
@@ -31,4 +35,14 @@ h1{
 }
 .web{
     text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
 }
