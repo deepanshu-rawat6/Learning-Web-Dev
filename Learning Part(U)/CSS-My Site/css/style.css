@@ -11,7 +11,7 @@ h1{
     margin: 50px auto 0 auto;
     font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
-    line-height: 200%;
+    /* line-height: 200%; */
     /* width: 10%;
     margin: 0 auto; we can use margin: 0 auto 0 auto; but simply defining 0 and auto is understood as 0 for top and bottom and auto for left and right */
 }
@@ -23,8 +23,16 @@ h2{
 h3{
     color: #11999E;
 }
+hr {
+    background-color: whitesmoke;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
 .top-container{
-    background-color: #CADEFC;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
     /* width: 200px;
@@ -40,6 +48,10 @@ h3{
     margin-left: 260px; */
 }
 .bottom-container{
+    height: 100px;
+    padding-top: 20px;
+    margin: 50px 0 0 0;
+    background-color:#66BFBF;
     /* background-color: yellow;
     width: 200px;
     height: 200px;  */
@@ -60,5 +72,54 @@ h3{
     left: 300px;
 }
 .footer-link{
+    margin: 70px 70px 70px 0;
     color: #11999E;
 }
+.skill-row{
+    margin: 100px auto;
+    width: 50%;
+    line-height: 2;
+    text-align: left;
+}
+.computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.chillies{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.description{
+    color: #40514E;
+}
+.name-surname{
+    color:#EAF6F6;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
