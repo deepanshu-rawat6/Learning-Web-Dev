@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    color: #40514E;
     /* margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px; */
@@ -19,17 +20,24 @@ h2{
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3{
     color: #11999E;
 }
 hr {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke;
     border-style: none;
     border-top-style: dotted;
     border-color: grey;
-    border-width: 5px;
+    border-width: 5px; */
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
     width: 5%;
+    margin: 100px auto;
+}
+p{
+    line-height: 2;
 }
 .top-container{
     background-color: #EAF6F6;
@@ -41,6 +49,7 @@ hr {
     padding: 20px; */
 }
 .middle-container{
+    margin: 100px 0;
     /* background-color: red;
     width: 200px;
     height: 200px; */
@@ -49,8 +58,7 @@ hr {
 }
 .bottom-container{
     height: 100px;
-    padding-top: 20px;
-    margin: 50px 0 0 0;
+    padding: 50px 0 20px;
     background-color:#66BFBF;
     /* background-color: yellow;
     width: 200px;
@@ -63,22 +71,30 @@ hr {
 }
 .top-cloud{
     position: absolute;
-    top: 50px;
+    top: 40px;
     right: 300px;
 }
 .bottom-cloud{
     position: absolute;
     bottom: 300px;
-    left: 300px;
+    left: 250px;
 }
-.footer-link{
+a{
+    margin: 10px 20px;
+    color: #11999E;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+/* .footer-link{
     margin: 70px 70px 70px 0;
     color: #11999E;
-}
+    text-decoration: none;
+} */
 .skill-row{
     margin: 100px auto;
     width: 50%;
-    line-height: 2;
     text-align: left;
 }
 .computer{
@@ -93,9 +109,13 @@ hr {
 }
 .description{
     color: #40514E;
+    width: 30%;
+    margin: auto auto;
 }
-.name-surname{
+.copyright{
     color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 .btn {
     background: #11cdd4;
@@ -122,4 +142,8 @@ hr {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+  .contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
   }
