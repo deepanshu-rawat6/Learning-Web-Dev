@@ -1,2 +1,2 @@
 # Learning-Web-Dev
-This is from me learning WebDev from absolute basics to advanced level
+Learning Web Dev from basic to intermediate level
